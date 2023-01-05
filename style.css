@@ -1,0 +1,30 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  border-collapse: collapse;
+  margin: 20px;
+}
+tr {
+  border: 1px solid black;
+}
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+.partie_une {
+  display: flex;
+  justify-content: space-around;
+}
+tr:nth-of-type(even) {
+  background-color: #ebd9c8;
+}
+tr:nth-of-type(odd) {
+  background-color: #bea58e;
+}
+tr:nth-of-type(1),
+td:nth-of-type(1) {
+  background-color: #d48030;
+}
